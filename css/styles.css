@@ -15,7 +15,7 @@
 
 .home-top {
     /* Used image */
-    background-image: url("/img/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg")
+    background-image: url("../img/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg")
 }
 
 .center {
@@ -25,17 +25,17 @@
 }
 
 .home-bottom {
-    background-image: url("/img/khloe-arledge-ND3edEmzcdQ-unsplash.jpg");
+    background-image: url("../img/khloe-arledge-ND3edEmzcdQ-unsplash.jpg");
 }
 
 .lasagna {
-    background-image: url("/img/luke-johnson-inC_KZ5oZCI-unsplash.jpg");
+    background-image: url("../img/luke-johnson-inC_KZ5oZCI-unsplash.jpg");
 }
 
 .borscht {
-    background-image: url("/img/monika-grabkowska-vCyWfv3YjM0-unsplash.jpg");
+    background-image: url("../img/monika-grabkowska-vCyWfv3YjM0-unsplash.jpg");
 }
 
 .pancakes {
-    background-image: url("/img/chad-montano-eeqbbemH9-c-unsplash.jpg");
+    background-image: url("../img/chad-montano-eeqbbemH9-c-unsplash.jpg");
 }
