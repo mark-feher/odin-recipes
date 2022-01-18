@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.paralax {
+    min-height: 100vh;
+
+    /* Paralax itself */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-top {
+    /* Used image */
+    background-image: url("/img/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg")
+}
+
+.center {
+   background-color: whitesmoke; 
+   min-height: 500px;
+   text-align: center;
+}
+
+.home-bottom {
+    background-image: url("/img/khloe-arledge-ND3edEmzcdQ-unsplash.jpg");
+}
+
+.lasagna {
+    background-image: url("/img/luke-johnson-inC_KZ5oZCI-unsplash.jpg");
+}
+
+.borscht {
+    background-image: url("/img/monika-grabkowska-vCyWfv3YjM0-unsplash.jpg");
+}
+
+.pancakes {
+    background-image: url("/img/chad-montano-eeqbbemH9-c-unsplash.jpg");
+}
