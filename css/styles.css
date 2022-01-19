@@ -20,7 +20,7 @@
 
 .center {
    background-color: whitesmoke; 
-   min-height: 500px;
+   min-height: 100vh;
    text-align: center;
 }
 
@@ -47,7 +47,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: xx-large;
+    font-size: 3em;
     font-weight: bold;
   }
 
@@ -56,12 +56,21 @@
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 10px;
-      padding: 10px;
+      gap: 25px;
+      padding: 50px;
   }
 
   .flex-item {
-      width: 100px;
-      height: 100px;
-      background-color: blue;
-  }
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 4px 8px 8px 4px rgba(0,0,0,0.4);
+}
+
+  .flex-item img{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 4px 8px 8px 4px rgba(0,0,0,0.4);
+}
