@@ -49,28 +49,28 @@
     color: white;
     font-size: 3em;
     font-weight: bold;
-  }
+}
 
-  .flex-container {
+.flex-container {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       gap: 25px;
       padding: 50px;
-  }
+}
 
-  .flex-item {
+.flex-item, img {
     width: 250px;
     height: 350px;
     border-radius: 10px;
     background-color: gray;
-    box-shadow: 4px 8px 8px 4px rgba(0,0,0,0.4);
+    box-shadow: 2px 1px 8px 2px rgba(0,0,0,0.4);
 }
 
-  .flex-item img{
-    width: 250px;
-    height: 350px;
-    border-radius: 10px;
-    box-shadow: 4px 8px 8px 4px rgba(0,0,0,0.4);
+img:hover {
+    transform: translate3D(0,-1px,0) scale(1.03); /* move up slightly and zoom in */
+    box-shadow: 2px 1px 8px 2px rgba(0,0,0,0.4), 4px 2px 16px 4px rgba(0,0,0,0.2);
+    transition: all .4s ease; /* zoom in */
+    cursor: pointer;
 }
